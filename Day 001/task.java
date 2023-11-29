@@ -1,0 +1,13 @@
+import java.util.*;
+public class task {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in); //obj
+        System.out.print("Enter No. 1 : ");
+        int a = sc.nextInt();
+        System.out.print("Enter No. 2 : ");
+        int b = sc.nextInt();
+
+        int sum=a+b;
+        System.out.println("Sum : "+sum);
+    }
+}
